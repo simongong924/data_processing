@@ -1,0 +1,11 @@
+<a href="/form/">NEW JOB</a>
+
+{% if job_list %}
+    <ul>
+    {% for job in job_list %}
+        <li><a href="{% url 'report' job.job_number %}">{{ job.job_number }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No jobs are entered.</p>
+{% endif %}
