@@ -6,4 +6,4 @@
 * Go to URL as shown in the shell
 
 ## See video demo here:
-* http://www.youtube.com/
+* https://www.youtube.com/watch?v=SZeSLJQhb-w
